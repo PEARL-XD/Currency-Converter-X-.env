@@ -42,7 +42,7 @@ const fetchConversionRate = async (from, to) => {
         let result = await response.json();
 
         if (result.conversion_rate) {
-            return result.conversion_rate;
+            return result.conversion_rate.toFixed(2);
         } else {
             console.error("Invalid response:", result);
             return null;
