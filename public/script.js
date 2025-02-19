@@ -1,8 +1,6 @@
 console.log("CURRENCY CONVERTER BY - PEARL - ");
 
-const SERVER_URL = window.location.origin.includes("localhost") 
-    ? "http://localhost:3000" 
-    : "https://currency-converter-x-env.onrender.com";
+
 
 const dropd = document.querySelectorAll(".dropd select");
 const fromCurr = document.querySelector(".from select");
@@ -40,7 +38,7 @@ const updateFlag = (element) => {
 // Function to fetch conversion rate from Node.js server
 const fetchConversionRate = async (from, to) => {
     try {
-        let response = await fetch(`${SERVER_URL}/convert?from=${from}&to=${to}`);
+        let response = await fetch(`/convert?from=${from}&to=${to}`);
         let result = await response.json();
 
         if (result.conversion_rate) {
