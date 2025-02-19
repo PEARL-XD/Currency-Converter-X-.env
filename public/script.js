@@ -1,6 +1,8 @@
 console.log("CURRENCY CONVERTER BY - PEARL - ");
 
-const SERVER_URL = "http://localhost:3000"; // Change this to your deployed server URL later
+const SERVER_URL = window.location.origin.includes("localhost") 
+    ? "http://localhost:3000" 
+    : "https://currency-converter-x-env.onrender.com";
 
 const dropd = document.querySelectorAll(".dropd select");
 const fromCurr = document.querySelector(".from select");
