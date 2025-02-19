@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="ico.png" />
+</head>
+
+<body>
+  <div class="maincont">
+    <div class="cont">
+      <h2>Currecny Converter</h2>
+      <form>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input id="input" value="" type="number" />
+        </div>
+        <!-- DROPDOWN -->
+        <div class="dropd">
+          <div class="from">
+            <p>From</p>
+            <div class="select-cont">
+              <img id="flagfrom" src="https://flagsapi.com/US/shiny/64.png" />
+              <!-- SELECT -->
+              <select name="from" id=""></select>
+            </div>
+          </div>
+          <!-- EXCHANGE PNG -->
+          <img id="exc" src="transfer.png" alt="" />
+          <div class="to">
+            <p>To</p>
+            <div class="select-cont">
+              <img id="flagto" src="https://flagsapi.com/IN/shiny/64.png" />
+              <select name="to" id="rs"></select>
+            </div>
+          </div>
+        </div>
+        <!-- RESULT -->
+        <div class="res"></div>
+        <!-- BUTTON -->
+        <button>Exchange</button>
+      </form>
+    </div>
+  </div>
+  <script src="country.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

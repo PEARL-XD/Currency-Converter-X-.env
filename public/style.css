@@ -1,0 +1,112 @@
+* {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(196, 203, 246) ; */
+    background-color: rgb(215, 242, 247);
+  }
+  .maincont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1f3192c2; */
+    background-color: #f3f3f3;
+  }
+  .amount p {
+    text-align: center;
+    color: #17252a;
+  }
+  .cont {
+    border: 2px solid;
+    padding: 50px;
+    border-radius: 30px;
+  }
+  h2 {
+    color: #17252a;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  p {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  #input {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 90%;
+    height: 35px;
+    position: relative;
+    left: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  svg {
+    width: 30px;
+    position: relative;
+    left: 40px;
+  }
+  .dropd {
+    display: flex;
+  }
+  .from {
+    text-align: left;
+  }
+  img {
+    opacity: 85%;
+    width: 100px;
+  }
+  
+  #toimg {
+    margin-left: 100px;
+  }
+  #exc {
+    position: relative;
+    top: 60px;
+    left: 10px;
+    height: 90px;
+  }
+  .to p {
+    position: relative;
+    left: 90px;
+    width: 43px;
+  }
+  select {
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  .res {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+  button {
+    margin-top: 40px;
+    margin-left: 25px;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+    background-color: rgba(101, 230, 150, 0.655);
+  }
+  #flagto {
+    position: relative;
+    left: 85px;
+  }
+  .dropd select {
+    position: relative;
+    top: 15px;
+    right: 91px;
+  }
+  #rs {
+    position: relative;
+    top: 15px;
+    right: 51px;
+  }
+  .to select {
+    position: relative;
+    left: 0;
+  }
+  
